@@ -1,0 +1,29 @@
+
+        body {
+            font-family: Arial;
+            background: #56a9ec;
+            padding: 30px;
+        }
+        #app {
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #0003;
+        }
+        .tarea {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #eee;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-radius: 5px;
+            transition: .3s;
+        }
+        .completada {
+            background: #c8f7c5; /* verde suave */
+            color: #2e7d32;
+            
+        }
